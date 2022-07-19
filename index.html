@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+</head>
+<body>
+
+    <main>
+        <nav class="nav ">
+            <div class="container">
+                <h2>Designwith<span>Kinzy</span></h2>
+                <ul>
+                    <li><a href="./Homepage.html" title="Email"><img src="./google-plus-g.svg" alt=""></a></li>
+                    <li><a href="./Quiz_section.html" title="Whatsapp"><img src="./whatsapp.svg" alt=""></a></li>
+                    <li><a href="./About.html" title="twitter"><img src="./twitter.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="my-details">
+           <div>
+            <h2>I'm Kinzy</h2>
+            <h4>A Frontend Developer and a UI/UX designer</h4>
+            <h4>Connect with me today for amazing web designs <br> for your brands/business</h4>
+            <button class="btn">Get In Touch</button>
+           </div>
+
+           <br>
+           <div>
+            <img src="./Fiverr dp.jpg" alt="">
+           </div>
+        </section>
+
+        <section class="my-x">
+         <!--div class="framecard">
+
+          <div class="card">
+            <img src="./images.png" alt="">
+            <h3>Web Designer</h3>
+            <h4>3 Projects</h4>
+          </div>
+          <div class="card">
+            <img src="./images.jpeg" alt="">
+            <h3>User Interface</h3>
+            <h4>6 Projects</h4>
+          </div>
+          <div class="card">
+            <img src="./images (1).png" alt="">
+            <h3>User Experience</h3>
+            <h4>6 Projects</h4>
+          </div>
+
+         </div-->
+
+
+         <div class="my-x-details">
+          <h3>What do I help</h3>
+          <p>I will help with finding a solution and solve your problems.
+            We create website design to help our client in their businesses
+
+            <br>
+            We use best framework for your sites which is lightweight but powerful.
+          </p>
+         </div>
+
+        </section>
+
+        <section class="my-portfolio">
+            <h3>Portfolio</h3>
+            <div class="grid">
+                <img src="./Desktop - 7.png" alt="">
+                <img src="./Desktop - 6.png" alt="">
+                <img src="./Desktop - 5.png" alt="">
+                <img src="./Desktop - 4.png" alt="">
+                <img src="./Desktop - 3.png" alt="">
+                <img src="./Desktop - 1.png" alt="">
+            </div>
+        </section>
+
+        <footer>
+        <div class="flex">
+          <div>
+            <h2>Let's make something <br>amazing together.</h2>
+            <h3>Start by saying Hi</h3>
+          
+            <ul>
+              <li><a href="./Homepage.html" title="Email"><img src="./google-plus-square.svg" alt=""></a></li>
+              <li><a href="./Quiz_section.html" title="Whatsapp"><img src="./whatsapp-square.svg" alt=""></a></li>
+              <li><a href="./About.html" title="twitter"><img src="./twitter-square.svg" alt=""></a></li>
+            </ul>
+          
+          </div>
+          <div>
+            <h2>Send an email</h2>
+            <form action="">
+              <textarea type="text" name="message" title="email" placeholder="Enter your message..."></textarea>
+              <button type="submit" class="btn">Send</button>
+            </form>
+          </div>
+        </div>
+                <hr />
+        </footer>
+        
+    </main>
+
+
+    <script>
+  const nav = document.querySelector('.nav')
+    window.addEventListener('scroll', fixNav)
+
+    function fixNav() {
+      if (window.scrollY > nav.offsetHeight + 150) {
+        nav.classList.add('active')
+      }
+      else {
+        nav.classList.remove('active')
+      }
+    }
+</script>
+</body>
+</html>
