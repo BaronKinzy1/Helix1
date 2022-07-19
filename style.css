@@ -109,6 +109,11 @@ span{
 .grid img{
     width: 380px;
 }
+
+.my-details img{
+    border-radius: 20px;
+
+}
 @media(max-width:768px){
 .my-details{
     margin-top: 100px;
@@ -271,6 +276,7 @@ span{
 }
 
 .my-x-details {
+    text-align: center;
     
     margin: 20px;
     padding: 5px;
@@ -289,6 +295,9 @@ footer{
     justify-content: space-around;
 }
 
+.flex ul{
+gap: 30px;
+}
 footer img {
     display: flex;
     width: 30px;
@@ -307,7 +316,10 @@ form{
 }
 
 form textarea{
-    padding: 5px;
+    padding: 10px;
+    margin: 0px;
+    align-items: center;
+
 
 }
 
